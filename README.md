@@ -1,6 +1,7 @@
 # Movies App
 - Create React App
 - configured Tailwind CSS
+- Header
 
 # Features
 - Login/ Signup
