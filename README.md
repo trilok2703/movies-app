@@ -18,6 +18,16 @@
 - If the user is not logged in redirect /browse to Login page and vice versa
 - Unsubscribed to the onAuthstatechanged callback
 - Add hardcoded values to constants file
+- Register TMDB API and create an app and get access token
+- Get Data fron TMDB now playing movies list API
+- Custom for getting now playing movies list
+- Created movieSlice
+- Update store with movies data
+- Planning for MainContainer and Secondary container
+- Fetch data for Trailer video
+- Update store with Trailer Video data
+- Embedded the Youtube video by using trailer key and make it autoplay and mute
+- Tailwind classes to make Maincontainer look awesome.
 
 # Features
 - Login/ Signup
