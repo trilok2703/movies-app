@@ -1,16 +1,15 @@
+import { useSelector } from "react-redux";
+import GPTSearchPage from "./GPTSearchPage";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
 
 const Browse = () => {
+   const showGptSearch =  useSelector(store => store.gpt.showGptSearch)
+
     return(
         <div>
             <Header/>
-            {/* Main Container
-                - Videoplayer
-                - VideoTitle
-            Second Container
-                - Movies cards * N */}
-            <MainContainer/>
+            {showGptSearch ? <GPTSearchPage/> : <MainContainer/>}
         </div>
     )
 }

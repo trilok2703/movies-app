@@ -36,6 +36,9 @@
 - useUpcomingMovies Hook
 - UseTopRatedMovies Hook
 - Updated popularMovies, upComingMovies and Toprated movies in the store.
+- GPT Search Page
+- GPT Search bar
+- Multi-language feature in our app
 
 
 # Features
